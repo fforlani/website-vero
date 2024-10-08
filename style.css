@@ -1,0 +1,11 @@
+.bg-secondary {
+    --si-bg-opacity: 1;
+    background-color: #f3f6ff !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #6366f1 !important;
+}
+
+.nav-link {
+}
