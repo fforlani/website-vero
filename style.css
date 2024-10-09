@@ -1,3 +1,8 @@
+:root {
+    --color-primary: #6366f1;
+    --color-background-light: #f3f6ff;
+}
+
 .bg-secondary {
     --si-bg-opacity: 1;
     background-color: #f3f6ff !important;
