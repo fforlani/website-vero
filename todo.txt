@@ -1,0 +1,11 @@
+logo: teniamo quello vecchio o lo modifichiamo
+recuperare immagine homepage con dimensioni originali, più qualità
+mappa: se la includiamo come iframe non possiamo personalizzarla, altrimenti dobbiamo creare una chiave Google API (costo quasi nullo)
+valutare quali sono le foto più importanti da mettere in anteprima nella pagina
+
+scelta grafica:
+ - mi piace molto la scelta grafica della nav che su mobile si dispone in orizzontale, sarebbe da mostrarla con soli due tab in orizzontale (forse)
+
+
+hosting sito: aruba, giga.it?
+tema usato: silicon (bootstrap) https://themes.getbootstrap.com/preview/?theme_id=104975
