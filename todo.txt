@@ -1,7 +1,13 @@
-logo: teniamo quello vecchio o lo modifichiamo
-recuperare immagine homepage con dimensioni originali, più qualità
-mappa: se la includiamo come iframe non possiamo personalizzarla, altrimenti dobbiamo creare una chiave Google API (costo quasi nullo)
-valutare quali sono le foto più importanti da mettere in anteprima nella pagina
+ - definire logo -> lasciamo quello iniziale, rifacendolo con i colori del sito
+ - recuperare immagine homepage con dimensioni originali, più qualità
+ - mappa: se la includiamo come iframe non possiamo personalizzarla, altrimenti dobbiamo creare una chiave Google API (costo quasi nullo)
+ - galleria: scegliere componente e valutare quali sono le foto più importanti da mettere in anteprima nella pagina
+ - creare svg stilizzati per le varie attività
+ - far funzionare form contatti
+ - indirizzo mail @veronicaforlanioculista.it
+ - preferisce di più l'homepage iniziale
+ - mettere nella galleria la foto dell'operazione chirurgica
+
 
 scelta grafica:
  - mi piace molto la scelta grafica della nav che su mobile si dispone in orizzontale, sarebbe da mostrarla con soli due tab in orizzontale (forse)
