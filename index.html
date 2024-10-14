@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./resources/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
   <body>
@@ -104,7 +105,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xxl-3 col-lg-4 offset-lg-8 offset-xxl-8 pt-lg-2">
+            <div class="col-xxl-3 col-lg-4 offset-lg-8 offset-xxl-8 pt-lg-2 d-none d-sm-block">
               <ul class="list-unstyled mb-0 px-4 px-lg-0">
                 <li class="d-flex align-items-center pb-1 mb-2">
                   <i class="bx bx-map fs-xl text-primary me-2"></i>
@@ -147,7 +148,7 @@
             </a>
             <a href="#parachirurgica" class="nav-link d-block w-100 rounded-3 p-4 p-xl-4 me-2 me-sm-3 me-lg-0 mb-lg-3" id="parachirurgica-tab" data-bs-toggle="tab" role="tab" aria-controls="parachirurgica" aria-selected="false" tabindex="-1">
               <div class="fs-xl">Attività</div>
-              <div class="fs-3 fw-bold">Parachiururgica</div>
+              <div class="fs-3 fw-bold">Parachirurgica</div>
             </a>
           </div>
         </div>
@@ -658,9 +659,30 @@
     <!-- SECTION gallery -->
     <section class="container pb-5 mb-1 mb-md-4 mb-lg-5" id="gallery">
       <h2 class="h1 text-center text-sm-center pb-2 pb-lg-0 mb-4 mb-lg-5">Gallery</h2>
-      <img src="resources/gallery.png"/>
+      <div id="lightGallery" class="gallery row g-4" data-thumbnails="true">
+
+        <div class="col-md-4">
+          <a href="resources/images/foto chirurgia.jpeg" class="gallery-item rounded-3 mb-4">
+            <img src="resources/images/foto chirurgia.jpeg">
+          </a>
+        </div>
+      
+        <div class="col-md-4">
+          <a href="resources/images/foto studio_v2/IMG_0785.jpeg" class="gallery-item rounded-3 mb-4">
+            <img src="resources/images/foto studio_v2/IMG_0785.jpeg">
+          </a>
+          <a href="resources/images/foto studio_v2/IMG_6705.jpeg" class="gallery-item rounded-3">
+            <img src="resources/images/foto studio_v2/IMG_6705.jpeg">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="resources/images/foto studio_v2/sala 3.jpeg" class="gallery-item rounded-3 mb-4">
+            <img src="resources/images/foto studio_v2/sala 3.jpeg">
+          </a>
+        </div>
+      </div>
       <div class="col-12 text-center pt-2 pt-md-3 pt-lg-4">
-        <button type="submit" class="btn btn-primary shadow-primary btn-lg">Vedi tutto</button>
+        <button type="button" class="btn btn-primary shadow-primary btn-lg">Vedi tutto</button>
       </div>
     </section>
 
@@ -820,10 +842,11 @@
       </div>
     </footer>
 
-    <script src="js/index.js"></script>
-    <script src="js/jarallax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script src="js/index.js"></script>
+    <script src="js/jarallax.min.js"></script>
   </body>
 </html>

@@ -28,10 +28,7 @@ function sendEmail() {
 }
 
 
-function showSpinner(){
-  $('#spinnerDiv').show();
-}
-
-function hideSpinner(){
-  $('#spinnerDiv').hide();
-}
+lightGallery(document.getElementById('lightGallery'), {
+  speed: 500,
+  selector: '.gallery-item'
+});
