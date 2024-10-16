@@ -32,3 +32,10 @@ lightGallery(document.getElementById('lightGallery'), {
   speed: 500,
   selector: '.gallery-item'
 });
+
+
+let isMobile = window.matchMedia("(max-width: 720px)").matches;
+let jarallax_speed = isMobile ? 0.7 : 0.1;
+$('#img-jarallax-home').jarallax({
+  speed: jarallax_speed,
+});
