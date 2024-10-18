@@ -1,0 +1,25 @@
+name: Autodeploy to FTP
+
+on:
+  push:
+    branches:
+      - release   # Esegui il workflow quando avviene un push o merge sul branch release
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout del codice
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Connetti al server FTP e carica i file
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ftp.veronicaforlanioculista.it
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./website # Cartella locale da sincronizzare
+          server-dir: /www.veronicaforlanioculista.it # Cartella remota sul server FTP
