@@ -21,5 +21,5 @@ jobs:
           server: ftp.veronicaforlanioculista.it
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./website # Cartella locale da sincronizzare
-          server-dir: /www.veronicaforlanioculista.it # Cartella remota sul server FTP
+          local-dir: ./website/ # Cartella locale da sincronizzare
+          server-dir: /www.veronicaforlanioculista.it/ # Cartella remota sul server FTP
