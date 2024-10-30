@@ -1,11 +1,12 @@
 DA FARE:
- - definire logo -> lasciamo quello iniziale, rifacendolo con i colori del sito
  - creare svg stilizzati per le varie attività
  - recuperare immagine homepage con dimensioni originali, più qualità
+ 
  - galleria: scegliere componente e valutare quali sono le foto più importanti da mettere in anteprima nella pagina
  - preferisce di più l'homepage iniziale
 
  FATTO:
+ - definire logo -> lasciamo quello iniziale, rifacendolo con i colori del sito
  - mappa: se la includiamo come iframe non possiamo personalizzarla, altrimenti dobbiamo creare una chiave Google API (costo quasi nullo)
  - far funzionare form contatti
  - indirizzo mail @veronicaforlanioculista.it: non bisogna mettere la mail
